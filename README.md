@@ -80,6 +80,7 @@ Child-side software
  - automated KSK rollover based on feedback from the parent
  - controlled by [`cds-cdnskey-publish`](https://www.knot-dns.cz/docs/3.0/singlehtml/index.html#policy-cds-cdnskey-publish) config option
  - can also submit DS change directly using DDNS
+ - [can publish `_dsboot`](https://www.knot-dns.cz/docs/3.3/html/modules.html#authsignal-automatic-authenticated-dnssec-bootstrapping-records) for authenticated bootstrapping
 
 ### [BIND9](https://bind9.readthedocs.io/en/latest/dnssec-guide.html#the-cds-and-cdnskey-resource-records)
  - publishes both CDS and CDNSKEY records
